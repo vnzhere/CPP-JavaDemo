@@ -104,5 +104,20 @@ double add(double a, double b)
 {return a+b};
 
 2. method overriding
+@override
+void sound(){
+    System.out.println("Dog barks");
+}
+
+// Abstraction 
+abstract class shape{
+    abstract void draw();
+}
+class Circle extends shape{
+    void draw(){
+        System.out.println("Circle")
+    }
+}
+
 
 
