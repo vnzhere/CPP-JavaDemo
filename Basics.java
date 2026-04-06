@@ -154,3 +154,6 @@ List<Integer> List = new LinkedList<>();
 list.add(1);
 list.addFirst(0);
 
+
+3. Set(Unique elements)
+a) Hashset
