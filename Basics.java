@@ -157,3 +157,23 @@ list.addFirst(0);
 
 3. Set(Unique elements)
 a) Hashset
+Set<Integer> set = new Hashset<>();
+set.add(10);
+
+b)TreeSet(Sorted)
+Set<Integer> set= new TreeSet<>();
+set.add(5);
+set.add(1);
+
+4. Map(Key-value)
+Map<String Integer> map = new HashMap<>();
+map.put("A", 1);
+map.put("B", 2);
+
+map.get("A");
+map.containsKey("B");
+
+5. TreeMap(Sorted keys)
+Map<Integer, String> map = new TreeMap<>();
+map.put(2, "B");
+map.put(1, "A");
